@@ -115,9 +115,9 @@ def run_inflation_analysis():
     st.write(pivot_table)
 
 def show_main_page():
-    st.title("Nepal Rastra Bank Indicator Dashboard 2")
-    st.write("Welcome to the data analysis dashboard. Select an analysis from the sidebar.")
-
+    st.title("NRB Data")
+    st.write("Welcome to the data presentation app. Select an analysis from the sidebar.")
+    st.write("Developed by Parash Shrestha")
 def main():
     # Display the title and introduction
     show_main_page()
