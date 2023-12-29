@@ -10,7 +10,7 @@ import matplotlib as plt
 
 def run_inflation_analysis():
     # Specify the path to the Excel file
-    excel_file_path = r'C:\Users\user\Desktop\Streamlit\NRB_Data.xlsx'
+    excel_file_path = r'NRB_Data.xlsx'
 
     # Read the Excel file into a Pandas DataFrame
     excel_data = pd.ExcelFile(excel_file_path)
@@ -121,7 +121,7 @@ def main():
     show_main_page()
 
     # Get the names of all sheets in the Excel file
-    excel_file_path = r'C:\Users\user\Desktop\Streamlit\NRB_Data.xlsx'
+    excel_file_path = r'NRB_Data.xlsx'
     excel_data = pd.ExcelFile(excel_file_path)
     sheet_names = excel_data.sheet_names
 
