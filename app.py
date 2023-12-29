@@ -113,7 +113,7 @@ def run_inflation_analysis():
     st.write(pivot_table)
 
 def show_main_page():
-    st.title("Data Analysis Dashboard")
+    st.title("Nepal Rastra Bank Indicator Dashboard")
     st.write("Welcome to the data analysis dashboard. Select an analysis from the sidebar.")
 
 def main():
