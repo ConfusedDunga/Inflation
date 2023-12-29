@@ -7,6 +7,8 @@ from datetime import datetime as dt
 import plotly.express as px
 import plotly.graph_objects as go
 import matplotlib as plt
+import openpyxl
+
 
 def run_inflation_analysis():
     # Specify the path to the Excel file
@@ -15,7 +17,7 @@ def run_inflation_analysis():
     # Read the Excel file into a Pandas DataFrame
     excel_data = pd.ExcelFile(excel_file_path)
     # Read the 'Inflation' sheet into a DataFrame
-    df = pd.read_excel(excel_data, sheet_name='Inflation')
+    df = pd.read_excel(excel_file_path, sheet_name='Inflation', engine='openpyxl')
 
     # Get the current year
     current_year = pd.to_datetime('now').year
