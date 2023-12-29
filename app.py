@@ -6,7 +6,7 @@ import altair as alt
 from datetime import datetime as dt
 import plotly.express as px
 import plotly.graph_objects as go
-
+import matplotlib as plt
 
 def run_inflation_analysis():
     # Specify the path to the Excel file
