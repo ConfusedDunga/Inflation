@@ -12,7 +12,7 @@ import openpyxl
 
 def run_inflation_analysis():
     # Specify the path to the Excel file
-    excel_file_path = 'https://github.com/ConfusedDunga/Inflation/blob/main/NRB_Data.xlsx'
+    excel_file_path = 'NRB_Data.xlsx'
 
     # Read the Excel file into a Pandas DataFrame
     excel_data = pd.ExcelFile(excel_file_path)
@@ -123,7 +123,7 @@ def main():
     show_main_page()
 
     # Get the names of all sheets in the Excel file
-    excel_file_path = 'https://github.com/ConfusedDunga/Inflation/blob/main/NRB_Data.xlsx'
+    excel_file_path = 'NRB_Data.xlsx'
     excel_data = pd.ExcelFile(excel_file_path)
     sheet_names = excel_data.sheet_names
 
